@@ -1,21 +1,20 @@
 package com.juniorjavaready.domain.Offer;
 
-import java.util.List;
-
 public class OfferFacade {
-    public List<Offer> findAllOffers() {
-        return null;
+    public String findAllOffers() {
+        return "success";
     }
 
-    public Offer findOfferById(int id) {
-        return null;
+    public String findOfferById(int id) {
+        return "success";
     }
 
-    public Offer createOffer(Offer offer) {
-        return null;
+    public String createOffer(int i, String developer, String solution, String url) {
+        return "success";
     }
 
-    public List<Offer> fetchAllOffersAndSaveAllIfNotExists() {
-        return null;
+    public String fetchAllOffersAndSaveAllIfNotExists() {
+        return "success";
     }
+
 }
